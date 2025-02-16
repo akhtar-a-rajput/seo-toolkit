@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Toolkit - All-in-One SEO Generator</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SEO Toolkit - Complete SEO Solution">
+    <meta property="og:description" content="Generate meta tags, robots.txt, sitemap.xml, and Open Graph tags with our comprehensive SEO toolkit">
+    <meta property="og:image" content="https://yourusername.github.io/seo-toolkit/images/og-image.jpg">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">SEO Toolkit</div>
+            <ul class="nav-menu">
+                <li><a href="#meta-generator">Meta Tags</a></li>
+                <li><a href="#og-generator">Open Graph</a></li>
+                <li><a href="#robots-generator">Robots.txt</a></li>
+                <li><a href="#sitemap-generator">Sitemap.xml</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>All-in-One SEO Toolkit</h1>
+            <p>Generate essential SEO files and tags for your website in seconds</p>
+            <button class="cta" onclick="scrollToTools()">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <main class="tools-container">
+        <!-- Meta Tags Generator -->
+        <section id="meta-generator" class="tool-section">
+            <h2>Meta Tags Generator</h2>
+            <div class="tool-instructions">
+                <button class="collapsible">How to Use</button>
+                <div class="instruction-content">
+                    <p>1. Enter your website's title (50-60 characters recommended)</p>
+                    <p>2. Write a compelling description (150-160 characters)</p>
+                    <p>3. Add relevant keywords separated by commas</p>
+                </div>
+            </div>
+            <div class="tool-inputs">
+                <input type="text" id="meta-title" placeholder="Page Title">
+                <textarea id="meta-description" placeholder="Meta Description"></textarea>
+                <input type="text" id="meta-keywords" placeholder="Keywords (comma separated)">
+                <button onclick="generateMetaTags()">Generate</button>
+            </div>
+            <div class="output-container" id="meta-output"></div>
+        </section>
+
+        <!-- Open Graph Generator -->
+        <section id="og-generator" class="tool-section">
+            <h2>Open Graph Generator</h2>
+            <!-- Similar structure with OG-specific fields -->
+        </section>
+
+        <!-- Robots.txt Generator -->
+        <section id="robots-generator" class="tool-section">
+            <h2>Robots.txt Generator</h2>
+            <!-- Inputs for user-agent rules -->
+        </section>
+
+        <!-- Sitemap Generator -->
+        <section id="sitemap-generator" class="tool-section">
+            <h2>Sitemap.xml Generator</h2>
+            <!-- URL input and priority settings -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2023 SEO Toolkit. Open source project hosted on GitHub</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
